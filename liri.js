@@ -80,6 +80,7 @@ function spotifythissong() {
             if (error) {
                 return console.log("Error occurred: " + error);
             }else {
+                
                 console.log("Artist: " + data.tracks.items[0].artists[0].name);
                 console.log("Album Name: " + data.tracks.items[0].album.name);
                 console.log("Song name: " + data.tracks.items[0].name);
@@ -170,7 +171,7 @@ function getcommandtxt(){
                     if (error) {
                         return console.log("Error occurred: " + error);
                     }else {
-                        //console.log(data)
+                        
                         console.log("Artist: " + data.tracks.items[0].artists[0].name);
                         console.log("Album Name: " + data.tracks.items[0].album.name);
                         console.log("Song name: " + data.tracks.items[0].name);
