@@ -10,7 +10,7 @@ Once you have the appropriate modules and permissions, you can begin using LIRI.
 
 ### Entering Commands
 
-You will use the command "node liri.js" at the start of each of the following quries: 
+You will use the command "node liri.js" at the start of each of the following queries: 
 *   "my-tweets" 
     * This command will return the objects of each of your previous 20 tweets
     * Example command: "node liri.js my-tweets"
@@ -24,5 +24,7 @@ You will use the command "node liri.js" at the start of each of the following qu
     * Example command: "node liri.js spotify-this-song tuesday"
 
 *   "do-what-it-says"
-    * This command will look to the [random.txt](random.text) file and execute the command written in there.
+    * This command will look to the [random.txt](random.txt) file and execute the command written in there.
     * Example command: "node liri.js do-what-it-says"
+
+Each of your results will be logged in [log.txt](log.txt).
